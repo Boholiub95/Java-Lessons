@@ -26,9 +26,9 @@ public class Employee {
 }
 
 class  DoPayroll {
-    public static void main(String[] args) { throw IOException{
+    public static void main(String[] args) { throw IOException {
         Scanner diskScanner = new Scanner(new File("EmployeeInfo.txr"));
-        for ( int empNum = 1; empNum <= 3; empNum+++) {
+        for ( int empNum = 1; empNum <= 3; empNum++) {
             payOneEmployee(diskScanner);}
 
     }
@@ -42,4 +42,5 @@ class  DoPayroll {
 
         }
     }
+
 
