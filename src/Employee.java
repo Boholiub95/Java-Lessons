@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.IOException;
+import java.util.Scanner;
+
 public class Employee {
     private  String name;
     private String jobTitle;
@@ -20,3 +24,22 @@ public class Employee {
         System.out.printf("%,.2f\n", amountPaid);
     }
 }
+
+class  DoPayroll {
+    public static void main(String[] args) { throw IOException{
+        Scanner diskScanner = new Scanner(new File("EmployeeInfo.txr"));
+        for ( int empNum = 1; empNum <= 3; empNum+++) {
+            payOneEmployee(diskScanner);}
+
+    }
+    }
+        static void payOneEmployee(Scanner aScanner) {
+        Employee anEmployee = new Employee();
+        anEmployee.setName(aScanner.nextLine());
+        anEmployee.setJobTitle(aScanner.nextLine());
+        anEmployee.cutCheck(aScanner.nextDouble());
+        aScanner.nextLine();
+
+        }
+    }
+
