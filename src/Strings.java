@@ -7,6 +7,7 @@ public class Strings {
         System.out.println( s+space+name);
         System.out.println("Hello" + " " + "Bob" );
         System.out.println("My number is " + x );
+
     }
 }
 
