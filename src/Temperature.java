@@ -1,9 +1,4 @@
-import static java.lang.System.out;
-public  enum TempScale (
-        CELSIUS, FAHRENHEIT, KELVIN, RANKINE,
-        NEWTOW, DELISLE, REAUMUR, ROMER, LEIDEN
-);
-
+/*
 public class Temperature {
     private  double number;
     private  TempScale scale;
@@ -39,3 +34,4 @@ public TempScale getScale() {
 }
 }
 
+*/
